@@ -1,0 +1,70 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Brooke}{Fox}
+%\title{Resumé title}
+\address{815 South Shenandoah Street \#103}{Los Angeles, California 90035}{}
+\phone[fixed]{602 463 4440}
+%\phone[mobile]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{brooke.k.fox@gmail.com}
+%\homepage{brookekfox.github.io}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture}   % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%------------------- content --------------------------------------
+\begin{document}
+%------------------- recipient data --------------------------------------
+\recipient{Le Cordon Bleu}{Pasadena, CA 91101}
+\date{November 24, 2015}
+\opening{To Whom It May Concern,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}
+\makelettertitle
+
+I am writing to express interest in the mathematics instructor position. I have two years' experience teaching mathematics in a college setting. I have taught precalculus, business math, and freshman-level general studies math. I also have experience supervising undergraduate TAs and tutors.
+
+I am currently working in the tech industry as a web developer, and it is just not fulfilling. The math department is the only place I really feel at home; I love being around math everyday and sharing my love of math with the students. %It's so disappointing when people say that don't like math or they are not good at math; I hope to be able to change some minds about it.
+I also have an interest in cooking; last year I completed a 20-week course at the New School of Cooking in Culver City.
+
+If I can provide any additional information on my background, education,  or qualifications, please let me know. I can be reached any time via email or phone. Thank you for your time and consideration, and I look forward to speaking with you about this opportunity.\\
+
+~\\~\\
+
+\makeletterclosing
+
+\end{document}
+
